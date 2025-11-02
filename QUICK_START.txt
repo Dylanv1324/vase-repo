@@ -1,0 +1,142 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    EDUSHARE QUICK START GUIDE                              ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+FOR ADMINISTRATORS
+==================
+
+1. CONFIGURE SERVER
+   $ sudo ./server-setup.sh
+   (Creates student accounts, configures SSH, optimizes system)
+
+2. INSTALL EDUSHARE
+   $ sudo ./install.sh
+   (Installs system to /opt/edushare)
+
+3. ADD CONTENT (optional)
+   $ ./add-content.sh add-subject geography
+   $ ./add-content.sh add-lesson mathematics my-lesson.txt
+
+4. FIND SERVER IP
+   $ ip addr show
+   (Students will connect to this IP)
+
+5. TEST
+   $ learn
+   (Try the interface yourself!)
+
+
+FOR STUDENTS
+============
+
+1. CONNECT TO SERVER
+   $ ssh student001@<server-ip>
+   (Replace <server-ip> with your school's server address)
+
+2. START LEARNING
+   $ learn
+
+3. NAVIGATE
+   - Type numbers to select options
+   - Browse subjects and lessons
+   - Press 'D' to download materials
+
+4. DOWNLOAD FOR OFFLINE
+   - Choose "Download materials for offline reading"
+   - Select subject or download all
+   - Disconnect to free up server
+
+5. READ OFFLINE
+   $ ls ~/my-learning-materials/
+   $ cat ~/my-learning-materials/mathematics/lessons/01_basic_arithmetic.txt
+
+
+COMMON COMMANDS
+===============
+
+Server Admin:
+  sudo systemctl status sshd    # Check SSH service
+  who                            # See connected students
+  htop                           # Monitor resources
+  ./add-content.sh list          # List all content
+
+Students:
+  learn                          # Start EduShare
+  ls ~/my-learning-materials/    # List downloaded materials
+  cat [file path]                # Read a lesson file
+  exit                           # Disconnect from server
+
+
+FILE LOCATIONS
+==============
+
+Installation:       /opt/edushare/
+Learning Materials: /opt/edushare/materials/
+Student Downloads:  ~/my-learning-materials/
+Scripts:            /usr/local/bin/learn
+
+
+TROUBLESHOOTING
+===============
+
+Can't connect via SSH?
+  → Check: sudo systemctl status sshd
+  → Check firewall: sudo ufw status
+  → Verify server IP: ip addr show
+
+Colors not showing?
+  → Normal on some terminals
+  → Interface works fine without colors
+
+Server slow?
+  → Check who's connected: who
+  → Ask students to download and disconnect
+  → Monitor: htop
+
+
+DIRECTORY STRUCTURE
+===================
+
+learning-system/
+├── materials/              # All educational content
+│   ├── mathematics/
+│   │   ├── lessons/       # Math lessons (.txt files)
+│   │   └── resources/     # Supplementary materials
+│   ├── science/
+│   ├── english/
+│   └── history/
+├── learn.sh               # Main student interface
+├── install.sh             # System installer
+├── server-setup.sh        # Server configuration
+├── add-content.sh         # Content management
+├── README.md              # Full documentation
+├── SETUP_GUIDE.md         # Detailed setup steps
+├── CONTENT_GUIDE.md       # Creating learning materials
+└── QUICK_START.txt        # This file
+
+
+NEXT STEPS
+==========
+
+1. Read README.md for complete overview
+2. Follow SETUP_GUIDE.md for detailed installation
+3. Review CONTENT_GUIDE.md to create materials
+4. Test with small group before full deployment
+5. Train teachers and students on system usage
+
+
+SUPPORT
+=======
+
+Documentation:  README.md, SETUP_GUIDE.md, CONTENT_GUIDE.md
+Testing:        Run ./learn.sh to test interface
+Content:        See materials/ directory for examples
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+Built for underprivileged schools worldwide
+
+Education for Everyone, Everywhere
+
+═══════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,40 @@
+# EduShare Git Ignore File
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Student data (don't commit student downloads)
+my-learning-materials/
+
+# Passwords and sensitive files
+passwords.txt
+*.secret
+*.key
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Compressed files (except documentation archives)
+*.tar.gz
+*.zip
+!edushare-*.tar.gz
+
+# OS specific
+.directory
+desktop.ini

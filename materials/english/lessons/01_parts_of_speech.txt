@@ -1,0 +1,85 @@
+================================================================================
+                         PARTS OF SPEECH
+================================================================================
+
+LESSON 1: Understanding the Building Blocks of Sentences
+---------------------------------------------------------
+
+What are Parts of Speech?
+--------------------------
+Parts of speech are the different types of words we use to build sentences.
+Each type has a special job in a sentence.
+
+
+The Main Parts of Speech:
+--------------------------
+
+1. NOUNS
+   - Words that name people, places, things, or ideas
+   - Examples: teacher, school, book, happiness
+   - Sentence: The DOG ran in the PARK.
+
+2. VERBS
+   - Words that show action or state of being
+   - Examples: run, jump, is, are, think
+   - Sentence: The cat JUMPED over the fence.
+
+3. ADJECTIVES
+   - Words that describe nouns
+   - They tell us what kind, which one, or how many
+   - Examples: beautiful, tall, three, happy
+   - Sentence: The BEAUTIFUL flower grew in the garden.
+
+4. ADVERBS
+   - Words that describe verbs, adjectives, or other adverbs
+   - They often tell us how, when, where, or how much
+   - Many end in -ly
+   - Examples: quickly, very, here, always
+   - Sentence: She ran QUICKLY to school.
+
+5. PRONOUNS
+   - Words that replace nouns
+   - Examples: I, you, he, she, it, we, they, them
+   - Sentence: THEY went to the store. (instead of "The students")
+
+6. PREPOSITIONS
+   - Words that show relationship between things
+   - Examples: in, on, under, over, with, to, from
+   - Sentence: The book is ON the table.
+
+
+Practice Exercise:
+------------------
+Identify the part of speech for the underlined words:
+
+1. The HAPPY child played in the park.
+2. She RUNS every morning.
+3. The cat sat UNDER the tree.
+4. THEY are my best friends.
+5. He speaks SOFTLY.
+
+Answers:
+1) Adjective  2) Verb  3) Preposition  4) Pronoun  5) Adverb
+
+
+Simple Sentence Structure:
+---------------------------
+A basic sentence needs at least a noun and a verb:
+  - Birds fly.
+  - Children learn.
+
+We can make sentences more interesting by adding other parts of speech:
+  - The COLORFUL birds fly GRACEFULLY OVER the lake.
+    (adjective) (noun) (verb) (adverb)  (preposition) (noun)
+
+
+Key Points to Remember:
+-----------------------
+* Nouns name things
+* Verbs show action
+* Adjectives describe nouns
+* Adverbs describe verbs
+* Pronouns replace nouns
+* Prepositions show relationships
+
+================================================================================

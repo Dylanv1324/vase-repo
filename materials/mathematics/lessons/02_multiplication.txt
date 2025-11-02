@@ -1,0 +1,59 @@
+================================================================================
+                           MULTIPLICATION
+================================================================================
+
+LESSON 2: Understanding Multiplication
+---------------------------------------
+
+What is Multiplication?
+-----------------------
+Multiplication is a faster way to add the same number many times.
+We use the times sign (×) or asterisk (*) for multiplication.
+
+Examples:
+  3 × 4 = 12   (three times four equals twelve)
+  This is the same as: 3 + 3 + 3 + 3 = 12
+
+  5 × 2 = 10   (five times two equals ten)
+  This is the same as: 5 + 5 = 10
+
+
+The Multiplication Table (1-10):
+---------------------------------
+1 × 1 = 1     2 × 1 = 2     3 × 1 = 3     4 × 1 = 4     5 × 1 = 5
+1 × 2 = 2     2 × 2 = 4     3 × 2 = 6     4 × 2 = 8     5 × 2 = 10
+1 × 3 = 3     2 × 3 = 6     3 × 3 = 9     4 × 3 = 12    5 × 3 = 15
+1 × 4 = 4     2 × 4 = 8     3 × 4 = 12    4 × 4 = 16    5 × 4 = 20
+1 × 5 = 5     2 × 5 = 10    3 × 5 = 15    4 × 5 = 20    5 × 5 = 25
+
+6 × 1 = 6     7 × 1 = 7     8 × 1 = 8     9 × 1 = 9     10 × 1 = 10
+6 × 2 = 12    7 × 2 = 14    8 × 2 = 16    9 × 2 = 18    10 × 2 = 20
+6 × 3 = 18    7 × 3 = 21    8 × 3 = 24    9 × 3 = 27    10 × 3 = 30
+6 × 4 = 24    7 × 4 = 28    8 × 4 = 32    9 × 4 = 36    10 × 4 = 40
+6 × 5 = 30    7 × 5 = 35    8 × 5 = 40    9 × 5 = 45    10 × 5 = 50
+
+
+Real-life Example:
+------------------
+If each student needs 4 pencils, and there are 6 students:
+  6 × 4 = 24 pencils needed in total
+
+
+Practice Problems:
+------------------
+1. 3 × 5 = ?
+2. 7 × 2 = ?
+3. 4 × 8 = ?
+4. 9 × 3 = ?
+5. 6 × 6 = ?
+
+Answers: 1) 15  2) 14  3) 32  4) 27  5) 36
+
+
+Key Points to Remember:
+-----------------------
+* Any number × 0 = 0
+* Any number × 1 = that same number
+* The order doesn't matter: 3 × 4 = 4 × 3
+
+================================================================================

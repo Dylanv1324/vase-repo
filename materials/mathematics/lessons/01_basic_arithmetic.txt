@@ -1,0 +1,55 @@
+================================================================================
+                           BASIC ARITHMETIC
+================================================================================
+
+LESSON 1: Addition and Subtraction
+-----------------------------------
+
+What is Addition?
+-----------------
+Addition means putting numbers together to find the total.
+We use the plus sign (+) for addition.
+
+Examples:
+  3 + 2 = 5    (three plus two equals five)
+  10 + 5 = 15  (ten plus five equals fifteen)
+  7 + 8 = 15   (seven plus eight equals fifteen)
+
+Real-life Example:
+  If you have 3 apples and your friend gives you 2 more apples,
+  you now have 3 + 2 = 5 apples total.
+
+
+What is Subtraction?
+--------------------
+Subtraction means taking away from a number.
+We use the minus sign (-) for subtraction.
+
+Examples:
+  10 - 3 = 7   (ten minus three equals seven)
+  15 - 5 = 10  (fifteen minus five equals ten)
+  20 - 8 = 12  (twenty minus eight equals twelve)
+
+Real-life Example:
+  If you have 10 mangos and you eat 3 of them,
+  you now have 10 - 3 = 7 mangos left.
+
+
+Practice Problems:
+------------------
+1. 5 + 4 = ?
+2. 12 - 7 = ?
+3. 8 + 6 = ?
+4. 20 - 9 = ?
+5. 15 + 15 = ?
+
+Answers: 1) 9  2) 5  3) 14  4) 11  5) 30
+
+
+Key Points to Remember:
+-----------------------
+* Addition makes numbers bigger
+* Subtraction makes numbers smaller
+* You can check subtraction with addition: 10 - 3 = 7, so 7 + 3 = 10
+
+================================================================================
