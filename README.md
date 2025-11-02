@@ -6,7 +6,7 @@ A lightweight, SSH-based learning management system designed specifically for un
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 EduShare solves the challenge of providing quality educational content in resource-constrained environments by:
 
@@ -17,19 +17,19 @@ EduShare solves the challenge of providing quality educational content in resour
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📚 **Subject-organized content** - Mathematics, Science, English, History, and more
-- 🎨 **Beautiful terminal UI** - Color-coded, easy-to-read formatting
-- 💾 **Offline downloads** - Students save materials locally to free up server access
-- 🔒 **Read-only access** - Students can't modify server files
-- ⚡ **Lightweight** - Minimal resource usage, perfect for low-cost hardware
-- 🌐 **Multi-user** - Many students can SSH in simultaneously
-- 🎓 **Self-paced learning** - Students browse and read at their own pace
+-  **Subject-organized content** - Mathematics, Science, English, History, and more
+-  **Beautiful terminal UI** - Color-coded, easy-to-read formatting
+-  **Offline downloads** - Students save materials locally to free up server access
+-  **Read-only access** - Students can't modify server files
+-  **Lightweight** - Minimal resource usage, perfect for low-cost hardware
+-  **Multi-user** - Many students can SSH in simultaneously
+-  **Self-paced learning** - Students browse and read at their own pace
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐
@@ -57,7 +57,7 @@ Student Workflow:
 
 ---
 
-## 📦 What's Included
+##  What's Included
 
 ```
 learning-system/
@@ -85,7 +85,7 @@ learning-system/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### For Server Administrators
 
@@ -126,7 +126,7 @@ learning-system/
 
 ---
 
-## 💻 Hardware Requirements
+##  Hardware Requirements
 
 ### Server
 - **Minimum**: Raspberry Pi 3, or any PC with 2GB RAM
@@ -158,7 +158,7 @@ learning-system/
 
 ---
 
-## 📚 Adding Your Own Content
+##  Adding Your Own Content
 
 ### Content Format
 
@@ -207,7 +207,7 @@ See `CONTENT_GUIDE.md` for detailed formatting guidelines.
 
 ---
 
-## 🛡️ Security Considerations
+##  Security Considerations
 
 1. **Change default passwords** - The setup creates accounts with password "student"
    ```bash
@@ -237,7 +237,7 @@ See `CONTENT_GUIDE.md` for detailed formatting guidelines.
 
 ---
 
-## 🎓 Use Cases
+##  Use Cases
 
 ### In the Classroom
 - Teacher demonstrates lessons on projector
@@ -256,7 +256,7 @@ See `CONTENT_GUIDE.md` for detailed formatting guidelines.
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Students can't connect via SSH
 ```bash
@@ -288,7 +288,7 @@ htop
 
 ---
 
-## 📖 Documentation
+##  Documentation
 
 - `README.md` - This file (overview and quick start)
 - `SETUP_GUIDE.md` - Detailed setup instructions
@@ -297,7 +297,7 @@ htop
 
 ---
 
-## 🤝 Contributing Content
+##  Contributing Content
 
 Teachers and educators are encouraged to contribute learning materials!
 
@@ -307,14 +307,14 @@ Teachers and educators are encouraged to contribute learning materials!
 
 ---
 
-## 📝 License
+##  License
 
 This project is released into the public domain for educational purposes.
 Schools and educators are free to use, modify, and distribute without restriction.
 
 ---
 
-## 🌟 Project Goals
+##  Project Goals
 
 EduShare aims to:
 - Reduce educational inequality through technology
@@ -325,7 +325,7 @@ EduShare aims to:
 
 ---
 
-## 💡 Tips for Success
+##  Tips for Success
 
 1. **Start small** - Install with example content, then gradually add more
 2. **Train students** - Teach proper usage (download and disconnect)
@@ -335,7 +335,7 @@ EduShare aims to:
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues, questions, or contributions:
 - Check `TROUBLESHOOTING.md`
@@ -344,6 +344,6 @@ For issues, questions, or contributions:
 
 ---
 
-**Built with ❤️ for underprivileged schools worldwide**
+**Built with  for underprivileged schools worldwide**
 
 *Education is the most powerful weapon which you can use to change the world.* - Nelson Mandela
