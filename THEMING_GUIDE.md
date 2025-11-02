@@ -4,29 +4,29 @@
 
 ---
 
-## 🎨 What's New?
+## What's New?
 
 The enhanced display system now automatically applies vibrant colors and fun formatting to **ANY** content you add! No special formatting needed - just write your lessons in plain text and EduShare makes them beautiful!
 
 ---
 
-## 🌈 Automatic Color Themes by Subject
+## Automatic Color Themes by Subject
 
 Each subject gets its own unique header color:
 
 | Subject | Header Color | Visual |
 |---------|-------------|---------|
-| **Mathematics** | Blue Background | 📐 Blue for logic & numbers |
-| **Science** | Green Background | 🔬 Green for nature & life |
-| **English** | Cyan Background | 📚 Cyan for creativity |
-| **History** | Purple Background | 🏛️ Purple for royalty & legacy |
-| **Any Other** | Magenta | ✨ Fun default color |
+| **Mathematics** | Blue Background | Blue for logic & numbers |
+| **Science** | Green Background | Green for nature & life |
+| **English** | Cyan Background | Cyan for creativity |
+| **History** | Purple Background | Purple for royalty & legacy |
+| **Any Other** | Magenta | Fun default color |
 
 **This happens automatically!** The system detects the subject from the folder name.
 
 ---
 
-## ✨ Automatic Formatting Rules
+## Automatic Formatting Rules
 
 The system intelligently detects and colors different parts of your content:
 
@@ -35,12 +35,12 @@ The system intelligently detects and colors different parts of your content:
 - Example: `BASIC ARITHMETIC` → Bright cyan box
 
 ### 2. **Lesson Headers** (LESSON N: ...)
-- Displayed with: **🎓 emoji + Yellow text**
+- Displayed with: **Yellow text**
 - Underlined with yellow line
 - Example: `LESSON 1: Addition` → Bright yellow with graduation cap
 
 ### 3. **Section Headers** (Ending with `:` or `?`)
-- Displayed with: **▶ Green arrow + Bold text**
+- Displayed with: ** Green arrow + Bold text**
 - Examples:
   - `What is Addition?` → Green with arrow
   - `The Four Main Steps:` → Green with arrow
@@ -49,27 +49,27 @@ The system intelligently detects and colors different parts of your content:
 - Converted to: **Magenta fancy lines** `━━━━━━━━`
 
 ### 5. **Examples Section**
-- Header with: **💡 Blue background box**
+- Header with: **Blue background box**
 - Content in: **Cyan text**
 - Automatically detected when line contains "Example:"
 
 ### 6. **Practice Problems Section**
-- Header with: **✏️ Green background box**
+- Header with: **Green background box**
 - Questions in: **Bright green**
 - Automatically detected when line contains "Practice"
 
 ### 7. **Answers Section**
-- Displayed with: **🔑 Magenta key emoji**
+- Displayed with: **Magenta key marker**
 - Makes answers easy to spot!
 
 ### 8. **Key Points / Important**
-- Header with: **⭐ Yellow star**
+- Header with: **Yellow star**
 - Underlined with yellow line
 - Detects: "Key Points", "Important", "Remember", "Fun Facts"
 
 ### 9. **Bullet Points**
-- `* item` → **● Cyan bullet** with white text
-- `- item` → **◆ Blue diamond** with white text
+- `* item` → ** Cyan bullet** with white text
+- `- item` → ** Blue diamond** with white text
 
 ### 10. **Numbered Lists**
 - In examples: **Cyan**
@@ -84,11 +84,11 @@ The system intelligently detects and colors different parts of your content:
 
 ### 12. **Special Notes**
 - Lines starting with "Think of:", "Note:", "Remember:", "Tip:"
-- Displayed with: **💭 Magenta thought bubble**
+- Displayed with: **Magenta thought bubble**
 
 ---
 
-## 🎯 How It Works (Automatic!)
+## How It Works (Automatic!)
 
 When you add ANY new lesson file:
 
@@ -100,14 +100,14 @@ The system automatically:
 1. **Detects** it's a Mathematics lesson (blue header)
 2. **Scans** the content line by line
 3. **Applies** colors based on patterns
-4. **Adds** fun emojis and symbols
+4. **Adds** enhanced formatting
 5. **Makes** it beautiful to read!
 
 **You don't do anything special!** Just write plain text following the content guide format.
 
 ---
 
-## 📝 Writing Content for Auto-Theming
+## Writing Content for Auto-Theming
 
 ### Basic Format (Plain Text)
 
@@ -149,22 +149,22 @@ Fun Facts:
 
 ### What You Get (Automatically!)
 
-- ✅ Colored borders (cyan boxes)
-- ✅ Subject-themed header (blue/green/cyan/purple)
-- ✅ Lesson number with 🎓 emoji
-- ✅ Section titles with ▶ arrows
-- ✅ Fancy colored dividers
-- ✅ Example boxes with 💡 emoji
-- ✅ Practice boxes with ✏️ emoji
-- ✅ Colorful bullet points (●◆)
-- ✅ Highlighted equations
-- ✅ Key points with ⭐ stars
-- ✅ Answer sections with 🔑 keys
-- ✅ Fun footer with encouraging message
+- Colored borders (cyan boxes)
+- Subject-themed header (blue/green/cyan/purple)
+- Lesson number highlighted
+- Section titles with  arrows
+- Fancy colored dividers
+- Example boxes highlighted
+- Practice boxes highlighted
+- Colorful bullet points ()
+- Highlighted equations
+- Key points with stars
+- Answer sections with keys
+- Fun footer with encouraging message
 
 ---
 
-## 🎨 Color Palette Reference
+## Color Palette Reference
 
 | Element | Color | ANSI Code | Usage |
 |---------|-------|-----------|--------|
@@ -182,7 +182,7 @@ Fun Facts:
 
 ---
 
-## 🚀 Testing Your Content
+## Testing Your Content
 
 To see how your lesson will look with the new colors:
 
@@ -199,21 +199,21 @@ To see how your lesson will look with the new colors:
 
 ---
 
-## 💡 Tips for Best Results
+## Tips for Best Results
 
 ### DO:
-- ✅ Use the standard format from CONTENT_GUIDE.md
-- ✅ End section headers with `:` or `?`
-- ✅ Label sections "Examples:", "Practice:", "Answers:"
-- ✅ Use bullet points with `*` or `-`
-- ✅ Write math equations on their own lines
-- ✅ Use "Key Points:", "Fun Facts:", etc.
+- Use the standard format from CONTENT_GUIDE.md
+- End section headers with `:` or `?`
+- Label sections "Examples:", "Practice:", "Answers:"
+- Use bullet points with `*` or `-`
+- Write math equations on their own lines
+- Use "Key Points:", "Fun Facts:", etc.
 
 ### DON'T:
-- ❌ Worry about colors - they're automatic!
-- ❌ Add manual formatting codes
-- ❌ Try to create complex ASCII art
-- ❌ Use inconsistent section naming
+- Worry about colors - they're automatic!
+- Add manual formatting codes
+- Try to create complex ASCII art
+- Use inconsistent section naming
 
 ---
 
@@ -241,18 +241,18 @@ Key Points:
 ```
 
 ### Output (Automatically Colored):
-- "What is Addition?" → **▶ Bright Green**
+- "What is Addition?" → ** Bright Green**
 - Divider line → **Magenta ━━━**
-- "Examples:" → **💡 Blue background box**
+- "Examples:" → **Blue background box**
 - "2 + 3 = 5" → **Bold Cyan**
-- "Practice Problems:" → **✏️ Green background box**
+- "Practice Problems:" → **Green background box**
 - Questions → **Bright Green**
-- "Key Points:" → **⭐ Yellow with underline**
-- Bullets → **● Cyan bullets**
+- "Key Points:" → **Yellow with underline**
+- Bullets → ** Cyan bullets**
 
 ---
 
-## 🌟 Special Features
+## Special Features
 
 ### 1. **Smart Context Detection**
 The system remembers context:
@@ -260,22 +260,11 @@ The system remembers context:
 - Inside "Practice:" section → colors as questions
 - Outside sections → normal paragraph text
 
-### 2. **Emoji Integration**
-Automatically adds relevant emojis:
-- 🎓 for lessons
-- 💡 for examples
-- ✏️ for practice
-- 🔑 for answers
-- ⭐ for key points
-- 💭 for notes
-- ✨ for decorations
-- 🌟 for encouragement
-
 ### 3. **Encouraging Messages**
 Every lesson ends with:
 ```
-✨ ════════════════════════════════════════════ ✨
-🌟 Great job reading! Keep learning! 🌟
+════════════════════════════════════════════ 
+Great job reading! Keep learning! 
 ```
 
 ### 4. **Responsive Design**
@@ -285,7 +274,7 @@ Every lesson ends with:
 
 ---
 
-## 📊 Before & After Comparison
+## Before & After Comparison
 
 ### Before (Old Display):
 ```
@@ -308,25 +297,25 @@ Examples:
           BASIC ARITHMETIC                  (Cyan background)
 ╔══════════════════════════════════════════╗
 
-🎓 What is Addition?                        (Yellow with emoji)
+What is Addition?                        (Yellow highlighted)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  (Magenta line)
 
 Addition combines numbers.                  (White text)
 
-💡 Examples:                                (Blue box)
+Examples:                                (Blue box)
   2 + 3 = 5                                 (Bold cyan)
 
-● Addition is easy                          (Cyan bullet)
+ Addition is easy                          (Cyan bullet)
 
-✨ ═════════════════════════════════════ ✨
-🌟 Great job reading! Keep learning! 🌟
+═════════════════════════════════════ 
+Great job reading! Keep learning! 
 ```
 
 **100x more engaging and fun to read!**
 
 ---
 
-## 🔧 Customization (Advanced)
+## Customization (Advanced)
 
 If you want to modify the colors, edit `learn.sh`:
 
@@ -345,31 +334,31 @@ esac
 # Line ~120-250: Pattern matching rules
 if [[ "$line" =~ ^LESSON\ [0-9]+: ]]; then
     # Customize lesson header display
-    echo -e "\n${BOLD}${BRIGHT_YELLOW}🎓 ${line}${RESET}"
+    echo -e "\n${BOLD}${BRIGHT_YELLOW}${line}${RESET}"
 fi
 ```
 
 ---
 
-## ✅ Compatibility
+## Compatibility
 
 The theming system works on:
-- ✅ Modern terminals (xterm, gnome-terminal, konsole)
-- ✅ macOS Terminal
-- ✅ iTerm2
-- ✅ Windows Terminal
-- ✅ SSH sessions
-- ✅ Thin client terminals
-- ✅ Most Linux terminal emulators
+- Modern terminals (xterm, gnome-terminal, konsole)
+- macOS Terminal
+- iTerm2
+- Windows Terminal
+- SSH sessions
+- Thin client terminals
+- Most Linux terminal emulators
 
 Falls back gracefully on:
 - Basic terminals (shows colors if supported, plain text otherwise)
-- Screen readers (emojis have text equivalents)
+- Screen readers (enhanced formatting degrades gracefully)
 - Black & white displays (content still readable)
 
 ---
 
-## 🎉 Summary
+## Summary
 
 **You write plain text → EduShare makes it beautiful!**
 
@@ -377,7 +366,7 @@ The system automatically:
 - Detects your subject (for header colors)
 - Identifies content types (titles, examples, practice)
 - Applies vibrant colors
-- Adds fun emojis and symbols
+- Adds enhanced formatting
 - Creates engaging visual hierarchy
 - Encourages students
 
@@ -385,7 +374,7 @@ The system automatically:
 
 ---
 
-## 📚 Next Steps
+## Next Steps
 
 1. Write your lessons in plain text (see CONTENT_GUIDE.md)
 2. Add them to the materials folder
@@ -395,6 +384,6 @@ The system automatically:
 
 ---
 
-**Built with ❤️ and 🌈 for engaging education!**
+**Built with and for engaging education!**
 
 *Every lesson is now a colorful adventure!*

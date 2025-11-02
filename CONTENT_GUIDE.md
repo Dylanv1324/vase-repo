@@ -265,7 +265,7 @@ Optional sections:
 
 ### Writing Style
 
-✅ **DO:**
+**DO:**
 - Use clear, simple language
 - Define technical terms when first used
 - Break complex topics into smaller sections
@@ -273,7 +273,7 @@ Optional sections:
 - Include practical examples
 - Provide immediate feedback (answers)
 
-❌ **DON'T:**
+**DON'T:**
 - Use overly complex vocabulary
 - Assume prior knowledge without review
 - Create walls of text without breaks

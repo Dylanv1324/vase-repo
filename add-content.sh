@@ -39,7 +39,7 @@ add_subject() {
     mkdir -p "$MATERIALS_DIR/$subject/lessons"
     mkdir -p "$MATERIALS_DIR/$subject/resources"
 
-    echo "✓ Subject '$subject' created successfully!"
+    echo "Subject '$subject' created successfully!"
     echo "  Add lessons to: $MATERIALS_DIR/$subject/lessons/"
     echo "  Add resources to: $MATERIALS_DIR/$subject/resources/"
 }
@@ -69,7 +69,7 @@ add_lesson() {
 
     cp "$lesson_file" "$MATERIALS_DIR/$subject/lessons/"
 
-    echo "✓ Lesson added to $subject"
+    echo "Lesson added to $subject"
     echo "  Location: $MATERIALS_DIR/$subject/lessons/$(basename "$lesson_file")"
 }
 
@@ -88,7 +88,7 @@ list_content() {
             lesson_count=$(find "$subject_dir/lessons" -type f 2>/dev/null | wc -l)
             resource_count=$(find "$subject_dir/resources" -type f 2>/dev/null | wc -l)
 
-            echo "📚 ${subject^}"
+            echo "${subject^}"
             echo "   Lessons: $lesson_count"
             echo "   Resources: $resource_count"
 

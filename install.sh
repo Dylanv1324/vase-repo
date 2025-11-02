@@ -52,7 +52,7 @@ Remember to download materials for offline reading so others can use the server!
 EOF
 
 echo ""
-echo "✓ Installation complete!"
+echo "Installation complete!"
 echo ""
 echo "Students can now run 'learn' to access educational materials."
 echo "Installation location: $INSTALL_DIR"

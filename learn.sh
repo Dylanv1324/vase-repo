@@ -112,7 +112,7 @@ display_lesson() {
     echo -e "${RESET}"
 
     # Fun decorative line
-    echo -e "${BRIGHT_YELLOW}✨ ════════════════════════════════════════════════════════════════════════ ✨${RESET}\n"
+    echo -e "${BRIGHT_YELLOW}════════════════════════════════════════════════════════════════════════ ${RESET}\n"
 
     local in_practice=false
     local in_example=false
@@ -142,7 +142,7 @@ display_lesson() {
 
         # Lesson headers (LESSON N: ...)
         if [[ "$line" =~ ^LESSON\ [0-9]+: ]]; then
-            echo -e "\n${BOLD}${BRIGHT_YELLOW}🎓 ${line}${RESET}"
+            echo -e "\n${BOLD}${BRIGHT_YELLOW}${line}${RESET}"
             echo -e "${BRIGHT_YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
             continue
         fi
@@ -155,34 +155,34 @@ display_lesson() {
 
         # Section titles (ending with colon or question mark)
         if [[ "$line" =~ ^[A-Z].+(:|[\?])$ ]] || [[ "$line" =~ ^What.*\?$ ]] || [[ "$line" =~ ^Why.*\?$ ]] || [[ "$line" =~ ^How.*\?$ ]]; then
-            echo -e "\n${BOLD}${BRIGHT_GREEN}▶ ${line}${RESET}"
+            echo -e "\n${BOLD}${BRIGHT_GREEN}> ${line}${RESET}"
             continue
         fi
 
         # "Examples:" section starter
         if [[ "$line" =~ ^[\ ]*(Example|Examples|Real-life\ Example):$ ]]; then
-            echo -e "\n${BOLD}${BG_BLUE}${BRIGHT_WHITE} 💡 ${line} ${RESET}"
+            echo -e "\n${BOLD}${BG_BLUE}${BRIGHT_WHITE} ${line} ${RESET}"
             in_example=true
             continue
         fi
 
         # "Practice" section starter
         if [[ "$line" =~ ^[\ ]*(Practice|Practice\ Problems|Practice\ Questions):$ ]]; then
-            echo -e "\n${BOLD}${BG_GREEN}${BRIGHT_WHITE} ✏️  ${line} ${RESET}"
+            echo -e "\n${BOLD}${BG_GREEN}${BRIGHT_WHITE} ${line} ${RESET}"
             in_practice=true
             continue
         fi
 
         # "Answers:" section
         if [[ "$line" =~ ^[\ ]*(Answer|Answers):.*$ ]]; then
-            echo -e "\n${BOLD}${BRIGHT_MAGENTA}🔑 ${line}${RESET}"
+            echo -e "\n${BOLD}${BRIGHT_MAGENTA}${line}${RESET}"
             in_practice=false
             continue
         fi
 
         # "Key Points" or "Important" sections
         if [[ "$line" =~ ^[\ ]*(Key\ Points|Important|Remember|Fun\ Facts):$ ]]; then
-            echo -e "\n${BOLD}${BRIGHT_YELLOW}⭐ ${line}${RESET}"
+            echo -e "\n${BOLD}${BRIGHT_YELLOW}${line}${RESET}"
             echo -e "${BRIGHT_YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
             continue
         fi
@@ -190,13 +190,13 @@ display_lesson() {
         # Bullet points - colorful bullets
         if [[ "$line" =~ ^[\ ]*\*\ .+ ]]; then
             local content="${line#*\* }"
-            echo -e "${BRIGHT_CYAN}  ● ${BRIGHT_WHITE}${content}${RESET}"
+            echo -e "${BRIGHT_CYAN}  * ${BRIGHT_WHITE}${content}${RESET}"
             continue
         fi
 
         if [[ "$line" =~ ^[\ ]*-\ .+ ]] && [[ ! "$line" =~ ^-+$ ]]; then
             local content="${line#*- }"
-            echo -e "${BRIGHT_BLUE}  ◆ ${BRIGHT_WHITE}${content}${RESET}"
+            echo -e "${BRIGHT_BLUE}  - ${BRIGHT_WHITE}${content}${RESET}"
             continue
         fi
 
@@ -223,7 +223,7 @@ display_lesson() {
 
         # Lines starting with "Think of:" or "Note:"
         if [[ "$line" =~ ^[\ ]*(Think\ of|Note|Remember|Tip):.*$ ]]; then
-            echo -e "${BRIGHT_MAGENTA}  💭 ${line}${RESET}"
+            echo -e "${BRIGHT_MAGENTA}  ${line}${RESET}"
             continue
         fi
 
@@ -249,8 +249,8 @@ display_lesson() {
     done
 
     # Fun footer
-    echo -e "\n${BRIGHT_YELLOW}✨ ════════════════════════════════════════════════════════════════════════ ✨${RESET}"
-    echo -e "${BRIGHT_GREEN}🌟 Great job reading! Keep learning! 🌟${RESET}\n"
+    echo -e "\n${BRIGHT_YELLOW}════════════════════════════════════════════════════════════════════════ ${RESET}"
+    echo -e "${BRIGHT_GREEN}Great job reading! Keep learning! ${RESET}\n"
 }
 
 # List subjects
@@ -273,19 +273,19 @@ list_subjects() {
             # Print with icon based on subject
             case "$subject" in
                 mathematics)
-                    print_menu_item "$count" "📐 Mathematics (${lesson_count} lessons)"
+                    print_menu_item "$count" "Mathematics (${lesson_count} lessons)"
                     ;;
                 science)
-                    print_menu_item "$count" "🔬 Science (${lesson_count} lessons)"
+                    print_menu_item "$count" "Science (${lesson_count} lessons)"
                     ;;
                 english)
-                    print_menu_item "$count" "📚 English (${lesson_count} lessons)"
+                    print_menu_item "$count" "English (${lesson_count} lessons)"
                     ;;
                 history)
-                    print_menu_item "$count" "🏛️  History (${lesson_count} lessons)"
+                    print_menu_item "$count" "History (${lesson_count} lessons)"
                     ;;
                 *)
-                    print_menu_item "$count" "📖 ${subject^} (${lesson_count} lessons)"
+                    print_menu_item "$count" "${subject^} (${lesson_count} lessons)"
                     ;;
             esac
             ((count++))

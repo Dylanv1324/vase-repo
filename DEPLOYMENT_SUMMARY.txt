@@ -14,13 +14,13 @@ for underprivileged schools using thin clients and SSH.
 WHAT YOU HAVE
 =============
 
-✓ Main student interface (learn.sh) with beautiful terminal UI
-✓ Server configuration script (creates student accounts, configures SSH)
-✓ Installation script (one-command deployment)
-✓ Content management tools
-✓ 5 example lessons across 4 subjects
-✓ 60+ pages of documentation
-✓ Git repository initialized and committed
+Main student interface (learn.sh) with beautiful terminal UI
+Server configuration script (creates student accounts, configures SSH)
+Installation script (one-command deployment)
+Content management tools
+5 example lessons across 4 subjects
+60+ pages of documentation
+Git repository initialized and committed
 
 
 FILES BREAKDOWN
@@ -209,11 +209,11 @@ SUCCESS METRICS
 ===============
 
 After deployment, you should see:
-  ✓ Multiple students connected simultaneously
-  ✓ Students downloading and reading offline
-  ✓ Low server resource usage
-  ✓ Students learning at their own pace
-  ✓ Easy content updates by teachers
+  Multiple students connected simultaneously
+  Students downloading and reading offline
+  Low server resource usage
+  Students learning at their own pace
+  Easy content updates by teachers
 
 
 NEXT STEPS
@@ -240,7 +240,7 @@ EduShare proves that:
   • Open knowledge should be freely accessible
   • Technology can reduce educational inequality
 
-Built with ❤️ for underprivileged schools worldwide
+Built with for underprivileged schools worldwide
 
 
 ═══════════════════════════════════════════════════════════════════════════

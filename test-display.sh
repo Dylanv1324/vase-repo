@@ -50,7 +50,7 @@ echo "╚═══════════════════════�
 echo -e "${RESET}"
 
 # Fun decorative line
-echo -e "${BRIGHT_YELLOW}✨ ════════════════════════════════════════════════════════════════════════ ✨${RESET}\n"
+echo -e "${BRIGHT_YELLOW}════════════════════════════════════════════════════════════════════════ ${RESET}\n"
 
 in_practice=false
 in_example=false
@@ -80,7 +80,7 @@ cat "$file" | while IFS= read -r line; do
 
     # Lesson headers (LESSON N: ...)
     if [[ "$line" =~ ^LESSON\ [0-9]+: ]]; then
-        echo -e "\n${BOLD}${BRIGHT_YELLOW}🎓 ${line}${RESET}"
+        echo -e "\n${BOLD}${BRIGHT_YELLOW}${line}${RESET}"
         echo -e "${BRIGHT_YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
         continue
     fi
@@ -93,34 +93,34 @@ cat "$file" | while IFS= read -r line; do
 
     # Section titles (ending with colon or question mark)
     if [[ "$line" =~ ^[A-Z].+(:|[\?])$ ]] || [[ "$line" =~ ^What.*\?$ ]] || [[ "$line" =~ ^Why.*\?$ ]] || [[ "$line" =~ ^How.*\?$ ]]; then
-        echo -e "\n${BOLD}${BRIGHT_GREEN}▶ ${line}${RESET}"
+        echo -e "\n${BOLD}${BRIGHT_GREEN}> ${line}${RESET}"
         continue
     fi
 
     # "Examples:" section starter
     if [[ "$line" =~ ^[\ ]*(Example|Examples|Real-life\ Example):$ ]]; then
-        echo -e "\n${BOLD}${BG_BLUE}${BRIGHT_WHITE} 💡 ${line} ${RESET}"
+        echo -e "\n${BOLD}${BG_BLUE}${BRIGHT_WHITE} ${line} ${RESET}"
         in_example=true
         continue
     fi
 
     # "Practice" section starter
     if [[ "$line" =~ ^[\ ]*(Practice|Practice\ Problems|Practice\ Questions):$ ]]; then
-        echo -e "\n${BOLD}${BG_GREEN}${BRIGHT_WHITE} ✏️  ${line} ${RESET}"
+        echo -e "\n${BOLD}${BG_GREEN}${BRIGHT_WHITE} ${line} ${RESET}"
         in_practice=true
         continue
     fi
 
     # "Answers:" section
     if [[ "$line" =~ ^[\ ]*(Answer|Answers):.*$ ]]; then
-        echo -e "\n${BOLD}${BRIGHT_MAGENTA}🔑 ${line}${RESET}"
+        echo -e "\n${BOLD}${BRIGHT_MAGENTA}${line}${RESET}"
         in_practice=false
         continue
     fi
 
     # "Key Points" or "Important" sections
     if [[ "$line" =~ ^[\ ]*(Key\ Points|Important|Remember|Fun\ Facts):$ ]]; then
-        echo -e "\n${BOLD}${BRIGHT_YELLOW}⭐ ${line}${RESET}"
+        echo -e "\n${BOLD}${BRIGHT_YELLOW}${line}${RESET}"
         echo -e "${BRIGHT_YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
         continue
     fi
@@ -128,13 +128,13 @@ cat "$file" | while IFS= read -r line; do
     # Bullet points - colorful bullets
     if [[ "$line" =~ ^[\ ]*\*\ .+ ]]; then
         content="${line#*\* }"
-        echo -e "${BRIGHT_CYAN}  ● ${BRIGHT_WHITE}${content}${RESET}"
+        echo -e "${BRIGHT_CYAN}  * ${BRIGHT_WHITE}${content}${RESET}"
         continue
     fi
 
     if [[ "$line" =~ ^[\ ]*-\ .+ ]] && [[ ! "$line" =~ ^-+$ ]]; then
         content="${line#*- }"
-        echo -e "${BRIGHT_BLUE}  ◆ ${BRIGHT_WHITE}${content}${RESET}"
+        echo -e "${BRIGHT_BLUE}  - ${BRIGHT_WHITE}${content}${RESET}"
         continue
     fi
 
@@ -161,7 +161,7 @@ cat "$file" | while IFS= read -r line; do
 
     # Lines starting with "Think of:" or "Note:"
     if [[ "$line" =~ ^[\ ]*(Think\ of|Note|Remember|Tip):.*$ ]]; then
-        echo -e "${BRIGHT_MAGENTA}  💭 ${line}${RESET}"
+        echo -e "${BRIGHT_MAGENTA}  ${line}${RESET}"
         continue
     fi
 
@@ -187,5 +187,5 @@ cat "$file" | while IFS= read -r line; do
 done
 
 # Fun footer
-echo -e "\n${BRIGHT_YELLOW}✨ ════════════════════════════════════════════════════════════════════════ ✨${RESET}"
-echo -e "${BRIGHT_GREEN}🌟 Great job reading! Keep learning! 🌟${RESET}\n"
+echo -e "\n${BRIGHT_YELLOW}════════════════════════════════════════════════════════════════════════ ${RESET}"
+echo -e "${BRIGHT_GREEN}Great job reading! Keep learning! ${RESET}\n"

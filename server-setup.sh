@@ -23,7 +23,7 @@ if ! command -v sshd &> /dev/null; then
     echo "SSH server not found. Installing..."
     apt-get update && apt-get install -y openssh-server
 else
-    echo "✓ SSH server is installed"
+    echo "SSH server is installed"
 fi
 
 # Configure SSH for better performance on thin clients
@@ -48,7 +48,7 @@ MaxStartups 50:30:100
 Compression yes
 EOF
 
-echo "✓ SSH configured for thin client access"
+echo "SSH configured for thin client access"
 
 # Create student user template
 echo ""
@@ -101,7 +101,7 @@ EOF
 # Create students group if it doesn't exist
 groupadd -f students
 
-echo "✓ Resource limits configured"
+echo "Resource limits configured"
 
 # Firewall configuration
 echo ""
@@ -109,7 +109,7 @@ echo "[Step 5] Firewall configuration..."
 if command -v ufw &> /dev/null; then
     echo "Configuring UFW firewall..."
     ufw allow ssh
-    echo "✓ SSH port allowed in firewall"
+    echo "SSH port allowed in firewall"
 else
     echo "ℹ UFW not found. Please manually configure firewall to allow SSH (port 22)"
 fi
@@ -133,7 +133,7 @@ if [ ! -f /swapfile ]; then
         mkswap /swapfile
         swapon /swapfile
         echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
-        echo "✓ Swap file created"
+        echo "Swap file created"
     fi
 fi
 
@@ -141,7 +141,7 @@ fi
 echo ""
 echo "[Step 7] Restarting SSH service..."
 systemctl restart sshd
-echo "✓ SSH service restarted"
+echo "SSH service restarted"
 
 # Summary
 echo ""
