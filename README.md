@@ -23,7 +23,7 @@ EduShare solves the challenge of providing quality educational content in resour
 - **Beautiful terminal UI** - Color-coded, easy-to-read formatting
 - **Offline downloads** - Students save materials locally to free up server access
 - **Read-only access** - Students can't modify server files
-- ⚡ **Lightweight** - Minimal resource usage, perfect for low-cost hardware
+- **Lightweight** - Minimal resource usage, perfect for low-cost hardware
 - **Multi-user** - Many students can SSH in simultaneously
 - **Self-paced learning** - Students browse and read at their own pace
 
